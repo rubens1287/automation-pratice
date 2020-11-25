@@ -27,7 +27,11 @@ public class IndexPage extends DriverManager implements TestingType {
         produto.click();
         adicionaNoCarrinho();
     }
-
+    /**
+     *  Metodo resposavel por adicionar um produto no carrinho
+     *
+     * @since 24/11/2020
+     */
     private void adicionaNoCarrinho(){
         getWait()
                 .until(ExpectedConditions
