@@ -24,6 +24,12 @@ public class SigninPage extends DriverManager implements TestingType {
         return getWait().until(ExpectedConditions.elementToBeClickable(txtEmail)).isEnabled();
     }
 
+
+    /**
+     *  Metodo resposavel por criar uma conta
+     *
+     * @since 24/11/2020
+     */
     public void criaConta(){
         Faker faker = new Faker();
 
